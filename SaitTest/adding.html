@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="css/adding.css">
+        <script src="js/adding.js"></script>
+        <title>Hello</title>
+    </head>
+    <body>
+        <div class="content">
+            <div class="info">
+                <div class="name">
+                    <h4>Product name</h4>
+                    <input type="text" id="product_name">
+                </div>
+                <div class="creator">
+                    <h4>Creator</h4>
+                    <input type="text" id="creator_name">
+                </div>
+                <div class="data_creating">
+                    <h4>Creating date</h4>
+                    <input type="datetime-local" id="creating_date">
+                </div>
+                <div class="data_expire">
+                    <h4>The best before</h4>
+                    <input type="datetime-local" id="expiration_date">
+                </div>
+                <div class="data_get_product">
+                    <h4>Arrived in storage at</h4>
+                    <input type="datetime-local" id="storage_date">
+                </div>         
+            </div>
+            <div class="button">
+                <button class="request_button" onclick="send_request()">Send</button>
+            </div>
+        </div>
+    </body>
+</html>
